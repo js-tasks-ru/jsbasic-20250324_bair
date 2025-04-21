@@ -1,4 +1,4 @@
-class UserTable {
+export default class UserTable {
   constructor(rows) {
     this._rows = rows;
     this._elem = this._createTable();
